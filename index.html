@@ -9,9 +9,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
+        }
+        
+        p {
+            margin: 0;
+        }
+        
+        .l-green {
+            color: #30C1B0 !important;
+        }
+        
+        .d-green {
+            color: #004E44 !important;
+        }
+        
+        .fs-12px {
+            font-size: 12px;
         }
         
         .searchform {
@@ -46,17 +63,13 @@
             height: 50px;
         }
         
-        .searchform .search span {
-            font-size: 16px;
-            color: #30C1B0;
-        }
+        .searchform .search span {}
         
         input.form-control.pl-3::placeholder {
             color: #004E44;
         }
         
         .social-media p a span {
-            color: #30C1B0;
             font-size: 25px;
         }
         
@@ -67,17 +80,12 @@
         li.nav-item {
             font-size: 18px;
         }
-        
-        li.nav-item.active a {
-            color: #30C1B0 !important;
-            font-weight: bold;
-        }
     </style>
 </head>
 
 <body>
     <header>
-        <div class="container-xxl px-md-5 mt-3">
+        <div class="container-xl p-3 pt-2 mt-3">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-4 d-flex">
                     <div class="col-md-6 text-center">
@@ -96,10 +104,10 @@
                         </div>
                         <div class="col-md-3 social-media">
                             <p class="mb-0 d-flex">
-                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="fa fa-youtube"><i class="sr-only">Dribbble</i></span></a>
+                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="l-green fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="l-green fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="l-green fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                                <a href="#" class="col-md-3 d-flex align-items-center justify-content-center"><span class="l-green fa fa-youtube"><i class="sr-only">Dribbble</i></span></a>
                             </p>
                         </div>
                     </div>
@@ -114,7 +122,7 @@
             </button>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav m-auto">
-                        <li class="nav-item px-4 active"><a href="#" class="nav-link text-dark">Home</a></li>
+                        <li class="nav-item px-4 active"><a href="#" class="l-green nav-link text-dark fw-bold">Home</a></li>
                         <li class="nav-item px-4"><a href="#" class="nav-link text-dark">Romantic Trips</a></li>
                         <li class="nav-item px-4 dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
@@ -143,7 +151,166 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="third-section">
+            <div class="container-xl p-3 pt-2">
+                <div class="row">
+                    <div class="col-lg-7 mb-5">
+                        <div class="container-fluid d-flex flex-wrap gap-3 p-0">
+                            <div class="container-fluid h-70 p-0">
+                                <img class="img-fluid w-100" src="assets/image/main-place.svg" alt="">
+                            </div>
+                            <div class="container-fluid h-30 p-0">
+                                <p class="l-green text-uppercase">INTERNATIONAL</p>
+                                <h2 class="text-uppercase fw-bold">Travel industry seeks removal of 20% TCS on overseas packages</h2>
+                                <div class="d-flex align-item-center align-items-center gap-2"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                    <p class="m-0">By Rhaul Due | 29.03.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 d-flex flex-column">
+                        <div class="container-fluid d-flex p-0">
+                            <div class="container-fluid" style="width: 100%; height: 128px; max-width: 230px;">
+                                <img class="img-fluid" src="assets/image/place-1.svg" alt="">
+                            </div>
+                            <div class="container-fluid p-0">
+                                <p class="l-green text-uppercase text-uppercase fs-12px l-green">Guided Tour</p>
+                                <h6 class="text-uppercase fw-bold text-uppercase">Mount Etna Trekking Trip off the Tourist Path</h6>
+                                <div class="d-flex align-item-center align-items-center"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex p-0">
+                            <div class="container-fluid" style="width: 100%; height: 128px; max-width: 230px;">
+                                <img class="img-fluid" src="assets/image/place-2.svg" alt="">
+                            </div>
+                            <div class="container-fluid p-0">
+                                <p class="l-green text-uppercase text-uppercase fs-12px l-green">Adventure</p>
+                                <h6 class="text-uppercase fw-bold text-uppercase">Pirates' Route Sea Kayaking Tour</h6>
+                                <div class="d-flex align-item-center align-items-center"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex p-0">
+                            <div class="container-fluid" style="width: 100%; height: 128px; max-width: 230px;">
+                                <img class="img-fluid" src="assets/image/place-3.svg" alt="">
+                            </div>
+                            <div class="container-fluid p-0">
+                                <p class="l-green text-uppercase text-uppercase fs-12px l-green">Adventure</p>
+                                <h6 class="text-uppercase fw-bold text-uppercase">El Yunque Rainforest & Waterfalls Half-Day Tour</h6>
+                                <div class="d-flex align-item-center align-items-center"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid d-flex p-0">
+                            <div class="container-fluid" style="width: 100%; height: 128px; max-width: 230px;">
+                                <img class="img-fluid" src="assets/image/place-4.svg" alt="">
+                            </div>
+                            <div class="container-fluid p-0">
+                                <p class="l-green text-uppercase text-uppercase fs-12px l-green">Adventure</p>
+                                <h6 class="text-uppercase fw-bold text-uppercase">Snowmobile Safari in the Lyngen Alps</h6>
+                                <div class="d-flex align-item-center align-items-center"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fouth-section">
+            <div class="container-xl p-3 pt-2 mt-3">
+                <div class="container-fluid d-flex justify-content-between">
+                    <h2 class="d-green m-0">Best of Travel</h2><a class="d-green d-flex gap-2 align-items-center" href="#">See All<i class="fa fa-arrow-right"></i></a>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="container-fluid d-flex flex-wrap gap-3 p-3 shadow-lg mb-5 bg-body rounded">
+                                <div class="container-fluid h-70 p-0">
+                                    <img class="img-fluid w-100" src="assets/image/travel-main.svg" alt="">
+                                </div>
+                                <div class="container-fluid h-30 p-0">
+                                    <p class="l-green text-uppercase">INTERNATIONAL</p>
+                                    <h5 class="text-uppercase fw-bold">Discovering the highest an mountain peak of bali</h5>
+                                    <div class="d-flex align-item-center align-items-center gap-2"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                        <p class="m-0">By Rhaul Due | 29.03.2023</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-flex flex-wrap">
+                            <div class="container-fluid p-0">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="container-fluid d-flex flex-wrap gap-3 p-1 shadow-lg bg-body rounded">
+                                            <div class="container-fluid     p-0">
+                                                <img class="img-fluid w-100" src="assets/image/travel-1.svg" alt="">
+                                            </div>
+                                            <div class="container-fluid p-0">
+                                                <p class="l-green text-uppercase">Guided Tour</p>
+                                                <h6 class="text-uppercase fw-bold">Coronation Tour, Afternoon Tea & Westminster Abbey</h6>
+                                                <div class="d-flex align-item-center align-items-center gap-2"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="container-fluid d-flex flex-wrap gap-3 p-1 shadow-lg bg-body rounded">
+                                            <div class="container-fluid p-0">
+                                                <img class="img-fluid w-100" src="assets/image/travel-2.svg" alt="">
+                                            </div>
+                                            <div class="container-fluid p-0">
+                                                <p class="l-green text-uppercase">Guided Tour</p>
+                                                <h6 class="text-uppercase fw-bold">Whisky Tasting with History and Storytelling</h6>
+                                                <div class="d-flex align-item-center align-items-center gap-2"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="container-fluid d-flex flex-wrap gap-3 p-1 shadow-lg bg-body rounded">
+                                            <div class="container-fluid p-0">
+                                                <img class="img-fluid w-100" src="assets/image/travel-3.svg" alt="">
+                                            </div>
+                                            <div class="container-fluid p-0">
+                                                <p class="l-green text-uppercase">INTERNATIONAL</p>
+                                                <h6 class="text-uppercase fw-bold">Sunset Truffle Hunting with Tasting & Wine</h6>
+                                                <div class="d-flex align-item-center align-items-center gap-2"><img class="img-fluid" width="34px" src="assets/image/person-image.svg" alt="">
+                                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="container-fluid d-flex flex-wrap gap-3 p-1 shadow-lg bg-body rounded">
+                                            <div class="container-fluid p-0">
+                                                <img class="img-fluid w-100" src="assets/image/travel-4.svg" alt=" ">
+                                            </div>
+                                            <div class="container-fluid">
+                                                <p class="l-green text-uppercase ">INTERNATIONAL</p>
+                                                <h6 class="text-uppercase fw-bold ">Waterfall, Arenal Volcano and Hot Springs Tour</h6>
+                                                <div class="d-flex align-item-center align-items-center gap-2 "><img class="img-fluid " width="34px " src="assets/image/person-image.svg " alt=" ">
+                                                    <p class="m-0 fs-12px">By Rhaul Due | 29.03.2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
